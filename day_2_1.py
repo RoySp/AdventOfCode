@@ -1,4 +1,4 @@
-filename = 'day2.txt'
+filename = 'input/day2.txt'
 with open(filename) as file:
     lines = file.readlines()
     commands = [line.rstrip() for line in lines]
