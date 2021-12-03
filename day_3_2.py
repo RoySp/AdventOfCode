@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import copy
 filename = 'input/day3.txt'
 with open(filename) as file:

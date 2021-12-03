@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 filename = 'input/day1.txt'
 with open(filename) as file:
     lines = file.readlines()
