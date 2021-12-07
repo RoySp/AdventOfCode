@@ -7,7 +7,7 @@ with open(filename) as file:
 
 for day in range(256):
     temp = {}
-    temp[6] = temp[8] = (0 if 0 not in ages else ages[0])
+    temp[6] = temp[8] = ages.get(0, 0)
     for y in range(1, 9):
         temp[y-1] = temp.get(y-1, 0) + ages.get(y, 0)
     ages = temp
